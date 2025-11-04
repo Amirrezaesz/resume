@@ -12,10 +12,11 @@
       theme: {
         extend: {
           colors: {
-            accent: '#ff0000',
-            accent2: '#b68c24',
+            accent: '#333333',
+            accent2: '#959595',
             bgdark: '#0e0e0e',
             carddark: '#1a1a1a',
+            aside: '#fcfcfc30'
           },
           fontFamily: {
             vazir: ['Vazirmatn', 'sans-serif'],
@@ -33,7 +34,7 @@
       <header class="relative bg-gradient-to-r from-accent to-accent2 text-black p-6">
         <div class="mb-10">
           <button id="langBtn"
-            class="absolute top-4 left-4 bg-black text-accent font-bold rounded-lg px-4 py-2 hover:bg-gray-900 transition">
+            class="absolute top-4 left-4 bg-black text-accent2 font-bold rounded-lg px-4 py-2 hover:bg-gray-900 transition">
             English
           </button>
         </div>
@@ -131,7 +132,7 @@
         </div>
 
         <!-- Right Column -->
-        <aside class="md:w-80 space-y-6 bg-yellow-500/5 p-4 rounded-xl">
+        <aside class="md:w-80 space-y-6 bg-aside p-4 rounded-xl">
           <section>
             <h3 class="bg-gradient-to-r from-accent to-accent2 text-black px-3 py-2 rounded-lg text-sm font-bold"
               data-fa="اطلاعات تماس" data-en="Contact"></h3>
